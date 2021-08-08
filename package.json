@@ -1,0 +1,22 @@
+{
+  "name": "nuxt.az.webapp.static",
+  "version": "1.0.0",
+  "description": "Azure Static Web App",
+  "author": "Brian Johnson",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt generate",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.3.6",
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {
+    "@nuxt/types": "^2.15.7",
+    "@nuxt/typescript-build": "^2.1.0",
+    "@nuxtjs/vuetify": "^1.0.0"
+  }
+}
